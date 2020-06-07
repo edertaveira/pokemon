@@ -2,7 +2,7 @@
 
 This project is a web app that lists Pokemons. It allows us to search and get details from each one.
 
-You can see the project running in production mode: [https://pokemonchallenge.herokuapp.com/](https://pokemonchallenge.herokuapp.com/)
+You can see the project running in production mode: [https://pokechallenge.herokuapp.com/](https://pokechallenge.herokuapp.com/)
 
 ## Screenshots
 
