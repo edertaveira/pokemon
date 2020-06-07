@@ -1,0 +1,14 @@
+.ant-card {
+  background: transparent;
+  box-shadow: unset;
+}
+.ant-card:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+.ant-card:hover .ant-card-meta-title {
+  color: #000000;
+}
+.ant-card-meta-title {
+  color: #ffffff;
+  text-align: center;
+}

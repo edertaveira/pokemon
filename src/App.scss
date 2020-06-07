@@ -1,0 +1,108 @@
+
+
+.ant-layout {
+  background: url("/images/background_blue.jpg") no-repeat center center fixed !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.logo {
+  margin: 24px auto 10px;
+  width: 280px;
+}
+
+.infinite-container {
+  overflow: auto;
+  height: 76vh;
+}
+.loading-container {
+  position: absolute;
+  bottom: 40px;
+  width: auto;
+  left: 47%;
+  background: rgb(12, 73, 185);
+  border-radius: 50%;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.75);
+  text-align: center;
+}
+.dashboard {
+  .container-cover {
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+.container-cover {
+  width: 100%;
+  img {
+    width: 100%;
+  }
+}
+
+.ant-input-search {
+  margin: 10px 10px 10px 0;
+}
+.highlight {
+  background: #f7dc0b;
+  border-radius: 5px;
+}
+
+.site-page-header {
+  background: rgba(255, 255, 255, 0.2) !important;
+}
+
+.container-internal {
+  margin-top: 10px;
+}
+
+.ant-list-split .ant-list-item {
+  border-bottom: 1px solid rgba(240, 240, 240, 0.16) !important;
+}
+
+.ant-divider-horizontal.ant-divider-with-text-center::before,
+.ant-divider-horizontal.ant-divider-with-text-left::before,
+.ant-divider-horizontal.ant-divider-with-text-right::before,
+.ant-divider-horizontal.ant-divider-with-text-center::after,
+.ant-divider-horizontal.ant-divider-with-text-left::after,
+.ant-divider-horizontal.ant-divider-with-text-right::after {
+  border-top: 1px solid rgba(240, 240, 240, 0.4) !important;
+}
+
+span.ant-typography {
+  color: #ffffff !important;
+}
+
+.ant-tabs-nav .ant-tabs-tab {
+  color: #ffffff;
+}
+
+span.ant-divider-inner-text {
+  color: #ffffff !important;
+}
+
+span.ant-page-header-heading-title {
+  color: #ffffff;
+}
+span.anticon.anticon-arrow-left {
+  color: #ffffff !important;
+}
+
+.ant-tabs-nav .ant-tabs-tab:hover {
+  color: #eab006 !important;
+}
+.ant-tabs-tab-active.ant-tabs-tab {
+  color: #eab006 !important;
+}
+.ant-tabs-ink-bar.ant-tabs-ink-bar-animated {
+  background-color: #eab006 !important;
+}
+p.ant-empty-description {
+  color: #ffffff;
+}

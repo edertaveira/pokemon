@@ -1,0 +1,56 @@
+.ant-page-header-back {
+  margin-top: 40px;
+}
+.ant-collapse-header,
+.ant-page-header-heading-title {
+  text-transform: capitalize;
+}
+
+.ant-collapse.ant-collapse-borderless.ant-collapse-icon-position-left {
+  background: transparent !important;
+}
+
+.ant-collapse-item.site-collapse-custom-panel {
+  border: 0;
+  margin-bottom: 2px;
+  background: rgba(255, 255, 255, 0.2) !important;
+}
+
+.ant-collapse-header {
+  color: #ffffff !important;
+}
+
+.ant-collapse-content-box p,
+.ant-collapse-content-box h3 {
+  color: #d3d1d1 !important;
+}
+.ant-descriptions .ant-descriptions-title {
+  text-transform: capitalize;
+}
+.ant-descriptions .ant-descriptions-title,
+.ant-descriptions .ant-descriptions-view table .ant-descriptions-item-label,
+.ant-descriptions .ant-descriptions-view table .ant-descriptions-item-content {
+  color: #d3d1d1 !important;
+}
+
+li.ant-pagination-item {
+  background: rgba(255, 255, 255, 0.2);
+  border: 0;
+}
+li.ant-pagination-item a {
+  color: #ffffff;
+}
+li.ant-pagination-item-active {
+  background: rgba(255, 255, 255, 0.6);
+}
+li.ant-pagination-item-active a {
+  color: #000000 !important;
+}
+span.ant-pagination-item-ellipsis {
+  color: #ffffff !important;
+}
+a.ant-pagination-item-link {
+  background: transparent !important;
+  color: #ffffff !important;
+  border: 0 !important;
+}

@@ -1,0 +1,9 @@
+{
+  "browsers": ["chrome"],
+  "src": "./src/tests/",
+  "reporter": "list",
+  "disableScreenshots": true,
+  "skipJsErrors": true,
+  "pageLoadTimeout": 10000,
+  "stopOnFirstFail": true
+}
