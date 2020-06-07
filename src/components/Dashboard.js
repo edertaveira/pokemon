@@ -8,8 +8,6 @@ import { endpoint } from "../common/constants/endpoint";
 import { searching } from "../reducers/actions/commonActions";
 import Cards from "./Cards";
 import "./Dashboard.scss";
-import getPokemons from "../services/getPokemons";
-import getPokemon from "../services/getPokemon";
 
 const limit = 20;
 const errorMessage = "Something wrong. Sorry for that. Try again. :/ ";
@@ -30,9 +28,10 @@ const Dashboard = (props) => {
     if (value === "") return;
     try {
       setLoadingSearch(true);
-      const result = await axios.get(`${endpoint}pokemon/${value}`);
-      props.history.push(`/pokemon/${result.data.name}`);
+      const result = await axios.get(`${endpoint}pokemon/${value.toLowerCase()}`);
       setLoadingSearch(false);
+      props.dispatch(searching(value));
+      props.history.push(`/pokemon/${result.data.name}`);
     } catch (error) {
       if (error.response.status) {
         message.error("Pokemon Not found!");
