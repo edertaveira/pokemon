@@ -9,7 +9,7 @@ You can see the project running in production mode: [https://pokechallenge.herok
 ### Desktop Perspective
 ![nav](./docs/nav.gif)
 
-### Desktop Perspective
+### Mobile Perspective
 ![nav](./docs/mobile.gif)
 
 ## Libraries
